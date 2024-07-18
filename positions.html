@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header{
+            background-color: aquamarine;
+            height: 100px;
+            width: 100%;
+            position: sticky;
+            top: 300px
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            border-radius: 8px;
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .box:nth-child(2)
+        {
+            background-color: burlywood;
+            /*position: relative;*/
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .box:nth-child(3)
+        {
+            background-color: burlywood;
+            /*position: relative;*/
+            position: relative;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: chocolate;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }
+
+        .container{
+            height: 70vh;
+            width: 60%;
+            background-color: black;
+            position: relative;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header></header>
+    
+    <h1>  Relative and Fixed : </h1>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+
+<br><br>
+
+<h1>  Absolute : </h1>
+<div class="container">
+    <div class="box2">6</div>
+</div>
+
+<br><br>
+
+<h1>  Sticky and Header : </h1>
+<br>
+<h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eum quo molestias tempora amet officiis voluptate ipsam, a voluptatem labore odit et id aspernatur perspiciatis ab. Quas, voluptas, eaque unde ad est consequuntur debitis pariatur eum, amet quia libero dicta reprehenderit nobis labore. Et fuga illum provident, ratione ab asperiores. Necessitatibus, error placeat possimus amet itaque impedit nostrum quis natus perspiciatis corporis inventore modi sit doloribus dolorum consequuntur! Vero fugiat, rem qui ducimus maiores laudantium saepe, odit eum a voluptates recusandae magnam aliquam repellendus veniam temporibus tempora aspernatur consequuntur sint, quo consequatur dolore nemo culpa nostrum. Vel aliquid quas molestias.</h2>
+
+
+
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT5v4pxDmFFIh2533EZ7UaxwvKN6ONm1lYza6eYzN41Cc7ORvQ6Nopq1wxgoGn-JQxz7186fg8m0F-cKyFF0YpssfqHrX3pDyKZXvCneOWcqkqi375Hg346Fg">
+
+<br>
+<h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste eum quo molestias tempora amet officiis voluptate ipsam, a voluptatem labore odit et id aspernatur perspiciatis ab. Quas, voluptas, eaque unde ad est consequuntur debitis pariatur eum, amet quia libero dicta reprehenderit nobis labore. Et fuga illum provident, ratione ab asperiores. Necessitatibus, error placeat possimus amet itaque impedit nostrum quis natus perspiciatis corporis inventore modi sit doloribus dolorum consequuntur! Vero fugiat, rem qui ducimus maiores laudantium saepe, odit eum a voluptates recusandae magnam aliquam repellendus veniam temporibus tempora aspernatur consequuntur sint, quo consequatur dolore nemo culpa nostrum. Vel aliquid quas molestias.</h2>
+    
+</body>
+</html>
