@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .box
+        {
+            height: 270px;
+            width: 400px;
+            /*border: 1px solid black;*/
+            box-shadow: 0px 0px 10px rgb(150,179,179);
+            padding: 5px;
+            overflow: hidden;
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            
+        }
+
+        .content
+        {
+            padding: 2px solid black;
+            padding: 10px;
+            font-family: sans-serif;
+            text-align: justify;
+            background-color: white;
+            transition: all 1s; 
+        }
+
+        h1,h2,h3{
+            margin: 5px 0px;
+        }
+
+        .box:hover .content{
+            transform: translateY(-200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+        <img src="https://www.w3schools.com/w3images/house5.jpg">
+        <div class="content">
+        <h1>Title - house</h1>
+        <h2>Price - 400</h2>
+        <p>Description - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nam deleniti beatae, molestiae obcaecati illo doloribus vero explicabo quod exercitationem nostrum rem, repudiandae similique dicta, fugit recusandae atque ipsam. Quisquam corrupti eos laudantium quaerat. Illum perspiciatis, quibusdam minus qui illo a blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, totam! Repellendus aliquam ducimus, asperiores itaque quaerat officiis dicta assumenda, eveniet placeat mollitia rerum voluptate nostrum ad quam porro, nisi et.</p>
+    </div>
+    </div>
+
+    
+</body>
+</html>
