@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            cursor: pointer;
+            transition: all 2s;
+            margin: auto;
+        }
+
+        .box:hover{
+            background-color: blue;
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            transform: rotate(360deg);
+        }
+
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            cursor: pointer;
+            transition: all 2s;
+            margin: auto;
+        }
+
+        .box1:hover{
+            background-color: blue;
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            transform: scale(0.5);
+        }
+
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            cursor: pointer;
+            transition: all 2s;
+            margin: auto;
+        }
+
+        .box2:hover{
+            background-color: blue;
+            height: 400px;
+            width: 400px;
+            transform: skewY(30deg);
+        }
+
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            cursor: pointer;
+            transition: all 2s;
+            margin: auto;
+        }
+
+        .box3:hover{
+            background-color: blue;
+            height: 400px;
+            width: 400px;
+            transform: translateY(200);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

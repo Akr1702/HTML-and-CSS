@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            animation-name: mybox;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;   
+            animation-direction:alternate;
+            position: relative;
+        }
+        
+        @keyframes mybox{
+            form{
+                height: 0px;
+                width: 0px;
+                background-color: yellow;
+                border-radius: 0px;
+                left: 0px;
+                right: 0px;
+            }
+            to{
+                height: 600px;
+                width: 600px;
+                background-color:black;
+                border-radius: 800px;
+                left: 0px;
+                right: 0px;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
